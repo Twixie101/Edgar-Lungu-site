@@ -1,0 +1,123 @@
+/*==================================== LAYOUT SECTION======================================*/
+
+body{
+    font-family: 'Times New Roman', Tahoma, Verdana, sans-serif;
+    font-size: medium;
+    margin-left: 0;
+    margin-right: 0;
+}
+h1,h2,h3{
+    text-align: center;
+    margin-top: 16px;
+    
+}
+
+#header{
+    margin: 20px;
+    height: 130px;
+    background-color:  rgb(0, 255, 13);
+    color: #f5f5f5;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    /*clear: both;*/
+}
+
+#navbar{
+background-color: rgb(0, 255, 13);
+border-radius: 10px;
+height: 40px;
+font-style: 25px;
+font-weight: bold;
+font: Tahoma;
+margin: 20px;
+}
+
+#navbar ul{
+list-style-type: none;
+padding: 0;
+margin-right: 5px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
+
+#navbar  ul li {
+    display: inline;
+    padding: 8px;
+ vertical-align: middle;
+
+}
+
+#navbar  a{
+text-decoration: none;
+padding: 8px;
+font: bold;
+color: whitesmoke;
+font-size: 25px;
+}
+
+#navbar a:hover{
+   color: black;
+   background-color: #f5f5f5;
+   
+}
+
+/*===================================== SPECIAL CODE =========================================*/
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.pic{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.subheader{
+          text-align: center;
+          font-size: medium;
+}
+
+
+.button{
+    background-color: #2bd385;
+    width: 320px;
+    color: white;
+    border-radius: 20px;
+    padding:3px 40px;
+    opacity: 1.0;
+    transition: 0.5s ease-in-out;
+   
+}
+
+.button:hover{
+    opacity: 0.4;
+    box-shadow: inset;
+
+}
+
+
+.button ul{
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.button ul li{
+    
+   display: block;
+    margin: 40px;
+    text-align: center;
+    margin-right: 80px;
+}
+.button ul li a{
+    text-decoration: none;
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 20px;
+
+}
+
