@@ -7,7 +7,7 @@ function read (){
 
 
 function changeStyle(){
-                    var text = document.getElementById("button")
+                    var text = document.getElementById("button") 
 
 
 }

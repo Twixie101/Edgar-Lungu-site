@@ -24,37 +24,37 @@ h1,h2,h3{
 }
 
 #navbar{
-background-color: rgb(0, 255, 13);
-border-radius: 10px;
-height: 40px;
-font-style: 25px;
-font-weight: bold;
-font: Tahoma;
-margin: 20px;
+    border-radius: 10px;
+    height: 40px;
+    font-style: 25px;
+    font-weight: bold;
+    font: Tahoma;
+    margin: 20px;
+    background-color: rgb(0, 255, 13);
 }
 
 #navbar ul{
-list-style-type: none;
-padding: 0;
-margin-right: 5px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-text-align: center;
+    padding: 0;
+    margin-right: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    list-style-type: none;
 }
 
 
 #navbar  ul li {
     display: inline;
-    padding: 8px;
- vertical-align: middle;
+    padding: 4em;
+    vertical-align: middle;
 
 }
 
 #navbar  a{
-text-decoration: none;
-padding: 8px;
-font: bold;
-color: whitesmoke;
-font-size: 25px;
+    text-decoration: none;
+    padding: 8px;
+    color: whitesmoke;
+    font-size: 25px;
+    font: bold;
 }
 
 #navbar a:hover{
@@ -65,10 +65,10 @@ font-size: 25px;
 
 /*===================================== SPECIAL CODE =========================================*/
 .about{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: light;
     font-size: 25px;
-    margin: 10px;
+    margin-left: calc(2em - 1em);
 }
 
 .pic{
@@ -82,42 +82,37 @@ font-size: 25px;
 }
 
 
-.button{
-    background-color: #2bd385;
-    width: 320px;
+#button{
+    background: #00cc80;
+    width: 17em;
+    list-style-type: none;
+    display: block;
     color: white;
     border-radius: 20px;
-    padding:3px 40px;
-    opacity: 1.0;
+    padding: .5em;
+    font-size: 1.5em;
+    margin: 3% auto 7%;
+    z-index: 4;
     transition: 0.5s ease-in-out;
-   
+    text-decoration: none;   
+    text-align: center;
+
 }
 
-.button:hover{
+
+
+
+
+
+#button:hover{
     opacity: 0.4;
     box-shadow: inset;
-
 }
 
 
-.button ul{
-    padding: 0;
-    list-style-type: none;
 
-}
-
-.button ul li{
     
-   display: block;
-    margin: 40px;
-    text-align: center;
-    margin-right: 80px;
-}
-.button ul li a{
-    text-decoration: none;
-    font-size: 35px;
-    margin: 0px;
-    margin-bottom: 20px;
 
-}
+
+
 
