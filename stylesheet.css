@@ -85,7 +85,7 @@ h1,h2,h3{
 #button{
     background: #00cc80;
     width: 17em;
-    list-style-type: none;
+    
     display: block;
     color: white;
     border-radius: 20px;
@@ -97,6 +97,11 @@ h1,h2,h3{
     text-decoration: none;   
     text-align: center;
 
+}
+
+#button ul{
+    list-style-type: none;
+    
 }
 
 
