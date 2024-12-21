@@ -59,7 +59,7 @@ h1,h2,h3{
 
 #navbar a:hover{
    color: black;
-   background-color: #f5f5f5;
+   
    
 }
 
@@ -82,7 +82,51 @@ h1,h2,h3{
 }
 
 
-#button{
+#login{
+    color: white;
+    display: table;
+    background-color: #00cc80;
+    border: #00cc80 solid 2px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.row{
+    display: table-row;
+}
+
+.row label{
+    display: table-cell;
+    padding: 2px;
+    text-align: right ;
+}
+
+.row input{
+    display: table-cell;
+    padding: 2px;
+}
+
+button{  
+    border-radius: 5px;
+    background-color: aqua;
+    border: aqua;
+    transition: 0.5s ease-in-out;
+    width: 7em;
+    height: 3em;
+    font-family: 'Courier New', Courier, monospace; 
+    
+   
+}
+button:hover{
+    opacity: 0.6;
+    box-shadow: inset;
+}
+
+
+
+/*#button{
     background: #00cc80;
     width: 17em;
     
